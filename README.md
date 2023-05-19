@@ -1,2 +1,2 @@
 # API-Testing-Framework
-API Testing
+Framework de testare automata API
