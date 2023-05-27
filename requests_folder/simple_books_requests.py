@@ -76,7 +76,7 @@ class SimpleBooksRequests(unittest.TestCase):
         result = requests.get(get_all_orders_url, headers=header_params)
         return result
 
-    def get_a_single_order(self, order_id, access_token):
+    def get_a_single_order(self, access_token, order_id):
 
         single_order_url = self._BASE_URL + self._ORDERS_ENDPOINT + f"/{order_id}"
 
